@@ -1,0 +1,18 @@
+algoritmo "SOMAFUNCAO"
+var
+   V1,V2 ,S :INTEIRO
+FUNCAO SOMA(x, Y:INTEIRO):INTEIRO
+INICIO
+   RETORNE X+Y
+FIMFUNCAO
+
+inicio
+      ESCREVA ("DIGITE O PRIMERIO VALOR : ")
+      LEIA(V1)
+      ESCREVA ("DIGITE O SEGUNDO VALOR : ")
+      LEIA(V2)
+      S<- SOMA(V1,V2)
+      ESCREVAL(" A SOMA É " ,S)
+
+
+fimalgoritmo
